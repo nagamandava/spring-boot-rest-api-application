@@ -17,7 +17,7 @@ public class StudentController {
         return  student;
     }
 
-    //
+    //http://localhost:8080/students-detailes
     @GetMapping("/students-detailes")
     public List<Student> getStudentsDetailes(){
         List<Student> students = new ArrayList<>();
